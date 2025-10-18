@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="AI Stock Analyzer", page_icon="📈", layout="wide")
 
 def get_stock_info(symbol):
-    """Fetch stock information using yfinance!"""
+    """Fetch stock information using yfinance!!"""
     stock = yf.Ticker(symbol)
     info = stock.info
     
