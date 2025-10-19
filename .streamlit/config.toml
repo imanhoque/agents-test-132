@@ -1,0 +1,43 @@
+[theme]
+# Primary accent color for interactive elements
+primaryColor = "#1f77b4"
+
+# Background color for the main content area
+backgroundColor = "#ffffff"
+
+# Background color used for the sidebar and most interactive widgets
+secondaryBackgroundColor = "#f0f2f6"
+
+# Color used for almost all text
+textColor = "#262730"
+
+# Font family for all text in the app
+font = "sans serif"
+
+[server]
+# Port where the app runs
+port = 8501
+
+# Enables CORS protection
+enableCORS = false
+
+# Enables XSRF protection
+enableXsrfProtection = true
+
+[browser]
+# Internet address where users should point their browsers
+serverAddress = "localhost"
+
+# Port where users should point their browsers
+serverPort = 8501
+
+# Whether to send usage statistics to Streamlit
+gatherUsageStats = false
+
+[runner]
+# Allows you to type in the terminal to interact with the app
+magicEnabled = true
+
+# Run the Python Garbage Collector after script execution
+fastReruns = true
+
